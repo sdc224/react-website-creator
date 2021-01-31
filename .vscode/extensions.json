@@ -5,6 +5,7 @@
 		"christian-kohler.path-intellisense",
 		"mike-co.import-sorter",
 		"mikestead.dotenv",
-		"Orta.vscode-jest"
+		"Orta.vscode-jest",
+		"redhat.vscode-yaml"
 	]
 }

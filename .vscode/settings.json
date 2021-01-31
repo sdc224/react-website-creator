@@ -19,6 +19,10 @@
 	"typescript.format.enable": true,
 	"typescript.tsdk": "./node_modules/typescript/lib",
 
+	"[yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
 	"files.exclude": {
 		"**/.git": true,
 		"**/.svn": true,
