@@ -1,5 +1,5 @@
 {
-	"name": "client",
+	"name": "@rwc/client",
 	"version": "1.0.0",
 	"description": "React Website Creator UI",
 	"author": {

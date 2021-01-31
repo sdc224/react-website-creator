@@ -25,5 +25,6 @@ jobs:
             - name: Packaging, Linting and Testing Phase
 
               run: |
-                  yarn lint
-                  yarn tsc
+                  yarn client lint
+				  yarn client tsc
+				  yarn client test

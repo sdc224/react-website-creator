@@ -5,6 +5,11 @@
 	"workspaces": [
 		"packages/*"
 	],
+	"scripts": {
+		"client": "yarn workspace @rwc/client",
+		"client:check": "yarn client lint && yarn client tsc",
+		"server": "yarn workspace @rwc/server"
+	},
 	"devDependencies": {
 		"@types/node": "14.14.6",
 		"cross-env": "7.0.2",

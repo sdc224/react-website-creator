@@ -1,5 +1,5 @@
 {
-	"name": "server",
+	"name": "@rwc/server",
 	"version": "1.0.0",
 	"description": "A delightful way to building a Node.js RESTful API Services with beautiful code written in TypeScript",
 	"main": "src/app.ts",
