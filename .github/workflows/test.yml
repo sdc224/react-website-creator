@@ -23,7 +23,6 @@ jobs:
               run: yarn install --frozen-lockfile
 
             - name: Packaging, Linting and Testing Phase
-
               run: |
                   yarn client lint
 				  yarn client tsc
