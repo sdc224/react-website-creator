@@ -1,0 +1,34 @@
+{
+	"extends": "./tsconfig.alias.json",
+	"compilerOptions": {
+		"outDir": "build",
+		"target": "es6",
+		"module": "esnext",
+		"lib": ["DOM", "ESNext"],
+		"moduleResolution": "node",
+		"noResolve": false,
+		"noImplicitAny": false,
+		"removeComments": false,
+		"sourceMap": true,
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"keyofStringsOnly": true,
+		"esModuleInterop": true,
+		"importsNotUsedAsValues": "preserve",
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"typeRoots": ["node_modules/@types", "src/@types"]
+	},
+	"exclude": [
+		"node_modules",
+		"build",
+		"scripts",
+		"configs",
+		"acceptance-tests",
+		"webpack",
+		"jest",
+		"internals",
+		"__test__"
+	],
+	"include": ["./src/**/*", "@types"]
+}

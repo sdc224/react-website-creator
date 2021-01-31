@@ -1,0 +1,54 @@
+{
+	"editor.formatOnSave": true,
+
+	"files.eol": "\n",
+	"files.associations": {
+		".babelrc": "jsonc",
+		".eslintrc": "jsonc",
+		".prettierrc": "jsonc",
+
+		".stylelintrc": "json",
+
+		".dockerignore": "ignore",
+		".eslintignore": "ignore"
+	},
+
+	"javascript.validate.enable": false,
+	"javascript.format.enable": false,
+	"typescript.validate.enable": true,
+	"typescript.format.enable": true,
+	"typescript.tsdk": "./node_modules/typescript/lib",
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		".eslintcache": true,
+		"tsconfig.build.json": true,
+		"**/yarn.lock": true
+	},
+	"files.trimTrailingWhitespace": true,
+
+	"search.exclude": {
+		".git": true,
+		".eslintcache": true,
+		"build": true,
+		"bower_components": true,
+		"node_modules": true,
+		"npm-debug.log.*": true,
+		"__test__/__snapshots__": true,
+		"yarn.lock": true,
+		"*.{css,sass,scss}.d.ts": true
+	},
+
+	// Extension specific settings
+	"cSpell.enabled": true,
+
+	"importSorter.generalConfiguration.sortOnBeforeSave": true,
+	"importSorter.importStringConfiguration.quoteMark": "double",
+	"importSorter.importStringConfiguration.tabType": "tab",
+	"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+	"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80
+}

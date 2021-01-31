@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": "packages",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": ["es2018"],
+		"module": "commonjs",
+		"noUnusedLocals": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"target": "ESNext",
+		"strictNullChecks": true,
+		"paths": {
+			"@rwc-client/*": ["client/src/*"],
+			"@rwc-server/*": ["server/src/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}

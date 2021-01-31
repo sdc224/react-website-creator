@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"sdc224.react-extensions-pack",
+		"streetsidesoftware.code-spell-checker",
+		"christian-kohler.path-intellisense",
+		"mike-co.import-sorter",
+		"mikestead.dotenv",
+		"Orta.vscode-jest"
+	]
+}
