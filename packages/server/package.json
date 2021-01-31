@@ -45,7 +45,7 @@
 		"faker": "^4.1.0",
 		"figlet": "^1.2.0",
 		"glob": "^7.1.2",
-		"graphql": "14.0.2",
+		"graphql": "14.7.0",
 		"helmet": "^3.9.0",
 		"jsonfile": "5.0.0",
 		"microframework-w3tec": "^0.6.3",
