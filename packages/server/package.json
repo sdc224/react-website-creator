@@ -72,7 +72,7 @@
 		"winston": "3.1.0"
 	},
 	"devDependencies": {
-		"@types/bluebird": "3.5.25",
+		"@types/bluebird": "3.5.33",
 		"@types/chalk": "2.2.0",
 		"@types/commander": "2.12.2",
 		"@types/compression": "1.7.0",
