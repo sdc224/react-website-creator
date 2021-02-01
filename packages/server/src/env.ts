@@ -32,8 +32,8 @@ export const env = {
 	isDevelopment: process.env.NODE_ENV === "development",
 	app: {
 		name: getOsEnv("APP_NAME"),
-		version: (pkg as any).version,
-		description: (pkg as any).description,
+		version: pkg.version,
+		description: pkg.description,
 		host: getOsEnv("APP_HOST"),
 		schema: getOsEnv("APP_SCHEMA"),
 		routePrefix: getOsEnv("APP_ROUTE_PREFIX"),

@@ -8,6 +8,7 @@
     "words": [
         "hsts",
         "microframework",
+        "middlewares",
         "typeorm"
     ],
     // flagWords - list of words to be always considered incorrect
