@@ -82,7 +82,7 @@
 		"@types/faker": "4.1.4",
 		"@types/figlet": "1.2.0",
 		"@types/helmet": "0.0.41",
-		"@types/jest": "23.3.2",
+		"@types/jest": "23.3.14",
 		"@types/morgan": "1.7.35",
 		"@types/nock": "9.3.0",
 		"@types/reflect-metadata": "0.1.0",
