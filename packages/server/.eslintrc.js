@@ -42,8 +42,7 @@ module.exports = {
 		"eslint-plugin-import",
 		"eslint-plugin-jsdoc",
 		"eslint-plugin-prefer-arrow",
-		"@typescript-eslint",
-		"@typescript-eslint/tslint"
+		"@typescript-eslint"
 	],
 	rules: {
 		"@typescript-eslint/adjacent-overload-signatures": "error",
@@ -244,23 +243,6 @@ module.exports = {
 			}
 		],
 		"use-isnan": "error",
-		"valid-typeof": "off",
-		"@typescript-eslint/tslint/config": [
-			"error",
-			{
-				rules: {
-					"import-spacing": true,
-					typedef: [true, "call-signature", "parameter"],
-					whitespace: [
-						true,
-						"check-branch",
-						"check-decl",
-						"check-operator",
-						"check-separator",
-						"check-type"
-					]
-				}
-			}
-		]
+		"valid-typeof": "off"
 	}
 };

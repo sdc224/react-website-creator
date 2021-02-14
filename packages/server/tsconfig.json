@@ -37,6 +37,11 @@
 			"es2015.symbol",
 			"es2015.symbol.wellknown",
 			"esnext.asynciterable"
+		],
+		"typeRoots": [
+			"node_modules/@types",
+			"src/@types",
+			"../../node_modules/@types"
 		]
 	}
 }

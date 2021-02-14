@@ -1,12 +1,12 @@
-import { configure, transports } from 'winston';
+import { configure, transports } from "winston";
 
-export const configureLogger = () => {
-    configure({
-        transports: [
-            new transports.Console({
-                level: 'none',
-                handleExceptions: false,
-            }),
-        ],
-    });
+export const configureLogger = (): void => {
+	configure({
+		transports: [
+			new transports.Console({
+				level: "none",
+				handleExceptions: false
+			})
+		]
+	});
 };

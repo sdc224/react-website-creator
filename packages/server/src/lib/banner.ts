@@ -13,7 +13,7 @@ export const banner = (log: Logger): void => {
 		log.info("");
 		log.info("-------------------------------------------------------");
 		log.info(`Environment  : ${env.node}`);
-		log.info(`Version      : ${env.app.version as string}`);
+		log.info(`Version      : ${env.app.version}`);
 		log.info("");
 		log.info(`API Info     : ${route()}${env.app.routePrefix}`);
 		if (env.graphql.enabled) {

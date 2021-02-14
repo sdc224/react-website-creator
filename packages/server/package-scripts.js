@@ -214,7 +214,7 @@ module.exports = {
 					description: "Runs the unit tests"
 				},
 				pretest: {
-					script: eslint(`./test/unit/**.ts`),
+					script: eslint(`./test/unit/**/*.ts`),
 					hiddenFromHelp: true
 				},
 				run: {

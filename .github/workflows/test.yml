@@ -27,3 +27,4 @@ jobs:
                   yarn client lint
                   yarn client tsc
                   yarn client test
+                  yarn server test
