@@ -84,7 +84,7 @@
 		"@types/helmet": "0.0.48",
 		"@types/morgan": "1.7.35",
 		"@types/nock": "10.0.3",
-		"@types/serve-favicon": "2.2.30",
+		"@types/serve-favicon": "2.5.2",
 		"@types/supertest": "2.0.7",
 		"@types/uuid": "3.4.4",
 		"eslint-plugin-jsdoc": "31.6.0",
