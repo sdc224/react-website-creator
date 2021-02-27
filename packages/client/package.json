@@ -60,7 +60,7 @@
 		"eslint-import-resolver-webpack": "0.13.0",
 		"eslint-plugin-react": "7.22.0",
 		"fork-ts-checker-webpack-plugin": "5.2.1",
-		"html-webpack-plugin": "4.5.0",
+		"html-webpack-plugin": "4.5.2",
 		"redux-logger": "3.0.6",
 		"style-loader": "1.2.1",
 		"terser-webpack-plugin": "4.2.2",
