@@ -1,8 +1,9 @@
 import webpack from "webpack";
-import { merge as webpackMerge } from "webpack-merge";
 import WebpackDevServer from "webpack-dev-server";
-import baseConfig from "./webpack.common";
+import { merge as webpackMerge } from "webpack-merge";
+
 import paths from "../paths";
+import baseConfig from "./webpack.common";
 
 // Need to declare the module webpack for getting type details correctly for webpack-merge v5
 // See: https://github.com/survivejs/webpack-merge/issues/141

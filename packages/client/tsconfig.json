@@ -2,8 +2,8 @@
 	"extends": "./tsconfig.alias.json",
 	"compilerOptions": {
 		"outDir": "build",
-		"target": "es6",
-		"module": "esnext",
+		"target": "ESNext",
+		"module": "ESNext",
 		"lib": ["DOM", "ESNext"],
 		"moduleResolution": "node",
 		"noResolve": false,

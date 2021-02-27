@@ -1,7 +1,6 @@
 module.exports = function (api) {
 	api.cache(true);
 	const presets = [
-		["@babel/preset-typescript"],
 		[
 			"@babel/preset-env",
 			{
@@ -15,7 +14,9 @@ module.exports = function (api) {
 					ie: "11"
 				}
 			}
-		]
+		],
+		["@babel/preset-typescript"],
+		["@babel/preset-react"]
 	];
 	const plugins = [
 		[
