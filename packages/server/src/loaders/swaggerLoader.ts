@@ -1,6 +1,7 @@
 import { defaultMetadataStorage as classTransformerMetadataStorage } from "class-transformer/storage";
 import { getFromContainer, MetadataStorage } from "class-validator";
 import { validationMetadatasToSchemas } from "class-validator-jsonschema";
+import { Application } from "express";
 import basicAuth from "express-basic-auth";
 import {
 	MicroframeworkLoader,
@@ -16,7 +17,7 @@ export const swaggerLoader: MicroframeworkLoader = (
 	settings: MicroframeworkSettings | undefined
 ) => {
 	if (settings && env.swagger.enabled) {
-		const expressApp = settings.getData("express_app");
+		const expressApp = settings.getData("express_app") as Application;
 
 		const { validationMetadatas } = getFromContainer(
 			MetadataStorage

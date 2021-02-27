@@ -11,7 +11,7 @@ export class SecurityHstsMiddleware implements ExpressMiddlewareInterface {
 	): any {
 		return helmet.hsts({
 			maxAge: 31536000,
-			includeSubdomains: true
+			includeSubDomains: true
 		})(req, res, next);
 	}
 }

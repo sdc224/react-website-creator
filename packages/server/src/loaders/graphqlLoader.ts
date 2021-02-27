@@ -1,5 +1,5 @@
 import * as express from "express";
-import GraphQLHTTP from "express-graphql";
+import { graphqlHTTP as GraphQLHTTP } from "express-graphql";
 import {
 	MicroframeworkLoader,
 	MicroframeworkSettings
@@ -15,7 +15,9 @@ export const graphqlLoader: MicroframeworkLoader = async (
 	settings: MicroframeworkSettings | undefined
 ) => {
 	if (settings && env.graphql.enabled) {
-		const expressApp = settings.getData("express_app");
+		const expressApp = settings.getData(
+			"express_app"
+		) as express.Application;
 
 		const schema = await buildSchema({
 			resolvers: env.app.dirs.resolvers,
@@ -38,11 +40,11 @@ export const graphqlLoader: MicroframeworkLoader = async (
 				container.set("context", context); // place context or other data in container
 
 				// Setup GraphQL Server
-				GraphQLHTTP({
+				void GraphQLHTTP({
 					schema,
 					context,
 					graphiql: env.graphql.editor,
-					formatError: (error) => ({
+					customFormatErrorFn: (error) => ({
 						code: getErrorCode(error.message),
 						message: getErrorMessage(error.message),
 						path: error.path

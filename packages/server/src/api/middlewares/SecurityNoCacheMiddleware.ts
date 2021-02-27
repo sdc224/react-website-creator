@@ -1,5 +1,5 @@
 import * as express from "express";
-import * as helmet from "helmet";
+import nocache from "nocache";
 import { ExpressMiddlewareInterface, Middleware } from "routing-controllers";
 
 @Middleware({ type: "before" })
@@ -9,6 +9,6 @@ export class SecurityNoCacheMiddleware implements ExpressMiddlewareInterface {
 		res: express.Response,
 		next: express.NextFunction
 	): any {
-		return helmet.noCache()(req, res, next);
+		return nocache()(req, res, next);
 	}
 }
