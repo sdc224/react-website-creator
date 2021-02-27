@@ -62,7 +62,7 @@
 		"routing-controllers-openapi": "^1.7.0",
 		"serve-favicon": "^2.4.5",
 		"supertest": "^3.0.0",
-		"swagger-ui-express": "4.0.1",
+		"swagger-ui-express": "4.1.6",
 		"ts-node": "7.0.1",
 		"type-graphql": "^0.15.0",
 		"typedi": "0.8.0",
