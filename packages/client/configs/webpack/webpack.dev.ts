@@ -22,7 +22,14 @@ const config: webpack.Configuration = webpackMerge(baseConfig, {
 		publicPath: "/",
 		contentBase: paths.build,
 		compress: true,
-		open: true
+		open: {
+			// TODO : Config
+			// For Google Chrome:
+			// app: ['chrome', '--incognito'],
+
+			// For Microsoft Edge
+			app: ["msedge", "-inprivate"]
+		}
 	}
 });
 
