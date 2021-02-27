@@ -82,7 +82,7 @@
 		"@types/faker": "4.1.12",
 		"@types/figlet": "1.2.0",
 		"@types/helmet": "0.0.48",
-		"@types/morgan": "1.7.35",
+		"@types/morgan": "1.9.2",
 		"@types/nock": "10.0.3",
 		"@types/serve-favicon": "2.2.30",
 		"@types/supertest": "2.0.7",
