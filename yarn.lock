@@ -1379,10 +1379,10 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@11.2.3":
-  version "11.2.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.3.tgz#9971ede1c8465a231d7982eeca3c39fc362d5443"
-  integrity sha512-BirBUGPkTW28ULuCwIbYo0y2+0aavHczBT6N9r3LrsswEW3pg25l1wgoE7I8QBIy1upXWkwKpYdWY7NYYP0Bxw==
+"@testing-library/react@11.2.5":
+  version "11.2.5"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.5.tgz#ae1c36a66c7790ddb6662c416c27863d87818eb9"
+  integrity sha512-yEx7oIa/UWLe2F2dqK0FtMF9sJWNXD+2PPtp39BvE0Kh9MJ9Kl0HrZAgEuhUJR+Lx8Di6Xz+rKwSdEPY2UV8ZQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
@@ -1521,10 +1521,10 @@
   resolved "https://registry.yarnpkg.com/@types/faker/-/faker-4.1.12.tgz#065d37343677df1aa757c622650bd14666c42602"
   integrity sha512-0MEyzJrLLs1WaOCx9ULK6FzdCSj2EuxdSP9kvuxxdBEGujZYUOZ4vkPXdgu3dhyg/pOdn7VCatelYX7k0YShlA==
 
-"@types/figlet@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@types/figlet/-/figlet-1.2.0.tgz#2dab76da069dc8ce5dcab461f7f2788317fb01a8"
-  integrity sha512-TDZkNpYfkc3X8yv7w1QBziZmmxzNfGKX+YjeNkMpmSiNV0QOdNf9G5cEZB3FH1/oaqpSQEdxuDzURdju2L3lng==
+"@types/figlet@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@types/figlet/-/figlet-1.2.1.tgz#ae3ba62ae70fc2aa10ac76b42541a99680b080a1"
+  integrity sha512-uw+Xmam7sMFHYyVGq5CGH/6Lu0T792bf4T6+jPFtPkWnJ9YVjLKqOLzF7DHuSo/LEHtLWleUO7Zi7EKkg6rSIg==
 
 "@types/glob@^7.1.1":
   version "7.1.3"
