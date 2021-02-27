@@ -1,10 +1,11 @@
+import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 import path from "path";
 import webpack from "webpack";
 import { merge as webpackMerge } from "webpack-merge";
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
-import aliasConfig from "./webpack.alias";
+
 import paths from "../paths";
+import aliasConfig from "./webpack.alias";
 
 const config: webpack.Configuration = webpackMerge(aliasConfig, {
 	entry: {
@@ -49,7 +50,8 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: path.join(paths.src, "index.html")
+			template: path.join(paths.src, "index.html"),
+			favicon: path.join(paths.public, "favicon.ico")
 		}),
 		new ForkTsCheckerWebpackPlugin()
 	],

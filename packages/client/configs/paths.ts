@@ -1,5 +1,5 @@
-import path from "path";
 import fs from "fs";
+import path from "path";
 
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = (relativePath: string) =>
@@ -10,6 +10,7 @@ const paths = {
 	build: resolveApp("build"),
 	dotenv: resolveApp(".env"),
 	app: resolveApp("/"),
+	public: resolveApp("../../public"),
 	src: resolveApp("src"),
 	types: resolveApp("node_modules/@types"),
 	appTypes: resolveApp("src/@types"),

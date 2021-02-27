@@ -17,6 +17,10 @@ const config: webpack.Configuration = webpackMerge(baseConfig, {
 	mode: "development",
 	devtool: "#inline-source-map",
 	devServer: {
+		/* Added host as Edge doesn't recognize localhost for rendering favicon
+		 * @see https://stackoverflow.com/questions/33081965/favicon-not-working-on-edge
+		 */
+		host: "127.0.0.1",
 		port: 5000,
 		historyApiFallback: true,
 		publicPath: "/",
