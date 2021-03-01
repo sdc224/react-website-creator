@@ -65,7 +65,7 @@
 		"swagger-ui-express": "4.1.6",
 		"ts-node": "7.0.1",
 		"type-graphql": "^0.17.0",
-		"typedi": "0.8.0",
+		"typedi": "0.10.0",
 		"typeorm": "^0.2.5",
 		"typeorm-seeding": "^1.6.1",
 		"typeorm-typedi-extensions": "^0.2.1",
