@@ -86,7 +86,7 @@
 		"@types/nock": "10.0.3",
 		"@types/serve-favicon": "2.5.2",
 		"@types/supertest": "2.0.10",
-		"@types/uuid": "3.4.9",
+		"@types/uuid": "3.4.10",
 		"eslint-plugin-jsdoc": "31.6.1",
 		"eslint-plugin-no-null": "1.0.2",
 		"eslint-plugin-prefer-arrow": "1.2.3",
