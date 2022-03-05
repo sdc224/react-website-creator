@@ -43,7 +43,7 @@
 		"@babel/preset-typescript": "7.13.0",
 		"@testing-library/jest-dom": "5.11.9",
 		"@testing-library/react": "11.2.5",
-		"@types/history": "4.7.8",
+		"@types/history": "4.7.11",
 		"@types/html-webpack-plugin": "3.2.4",
 		"@types/react": "16.14.4",
 		"@types/react-dom": "16.9.11",
