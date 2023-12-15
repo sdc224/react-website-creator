@@ -75,7 +75,7 @@
 	"devDependencies": {
 		"@types/bluebird": "3.5.33",
 		"@types/chalk": "2.2.0",
-		"@types/compression": "1.7.0",
+		"@types/compression": "1.7.5",
 		"@types/cors": "2.8.10",
 		"@types/dotenv": "6.1.1",
 		"@types/express": "4.17.11",
